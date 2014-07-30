@@ -1,0 +1,9 @@
+{
+  "name": "catpaw",
+  "version": "0.0.0",
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#~0.3.3",
+    "polymer": "Polymer/polymer#~0.3.3"
+  },
+  "devDependencies": {}
+}
