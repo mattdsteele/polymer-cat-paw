@@ -1,0 +1,24 @@
+{
+  "name": "polymer-cat-paw",
+  "version": "0.0.1",
+  "authors": [
+    "Matt Steele <orphum@gmail.com>"
+  ],
+  "description": "A web component for a ridiculous BDConf joke",
+  "keywords": [
+    "polymer",
+    "bdconf"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.matthew-steele.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.3.3"
+  }
+}
