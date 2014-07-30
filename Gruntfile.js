@@ -25,6 +25,19 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     yeoman: yeomanConfig,
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true
+      },
+      pages: {
+        options: {
+          branch: 'gh-pages',
+          remote: 'git@github.com:mattdsteele/polymer-cat-paw.git'
+        }
+      }
+    },
     watch: {
       options: {
         nospawn: true,
