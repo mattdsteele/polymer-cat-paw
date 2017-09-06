@@ -1,3 +1,4 @@
+import svelte from 'rollup-plugin-svelte';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import cjs from 'rollup-plugin-commonjs';
@@ -10,9 +11,15 @@ export default {
     },
     name: 'PolymerCatPaw',
     plugins: [
+        svelte({
+          css: css => {
+            css.write('dist/bundle.css');
+          },
+          customElement: true
+        }),
         resolve(),
         cjs(),
-        babel(),
-        uglify()
+        babel()
+        // uglify()
     ]
 }
