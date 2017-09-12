@@ -1490,9 +1490,9 @@ rollup-plugin-babel@^3.0.2:
   dependencies:
     rollup-pluginutils "^1.5.0"
 
-rollup-plugin-commonjs@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.2.0.tgz#d7b16ebb9a36b754df888fc552dfa775c1174f9d"
+rollup-plugin-commonjs@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.2.1.tgz#5e40c78375eb163c14c76bce69da1750e5905a2e"
   dependencies:
     acorn "^5.1.1"
     estree-walker "^0.5.0"
@@ -1538,9 +1538,9 @@ rollup-pluginutils@^2.0.1:
     estree-walker "^0.3.0"
     micromatch "^2.3.11"
 
-rollup@^0.49.2:
-  version "0.49.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.49.2.tgz#a18f07595cde3b11875c9fece45b25ad3b220d1a"
+rollup@^0.49.3:
+  version "0.49.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.49.3.tgz#4cce32643dd8cf2154c69ff0e43470067db0adbf"
 
 safe-buffer@5.1.1, safe-buffer@^5.0.1:
   version "5.1.1"
@@ -1622,8 +1622,8 @@ slash@^1.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
 source-map-support@^0.4.15:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.17.tgz#6f2150553e6375375d0ccb3180502b78c18ba430"
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
     source-map "^0.5.6"
 
@@ -1699,8 +1699,8 @@ supports-color@^4.0.0:
     has-flag "^2.0.0"
 
 svelte@^1.25.1:
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.38.0.tgz#6792ce711eaaa5e2d6c986f71050955346f5b63d"
+  version "1.39.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.39.0.tgz#665e89f3b8f35d0fe9cdd8ef13562c3c39992f1e"
 
 term-size@^1.2.0:
   version "1.2.0"
@@ -1720,9 +1720,9 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-uglify-es@^3.0.28:
-  version "3.0.28"
-  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.0.28.tgz#1cdedbbcdb7865223065281ad7b2347629851d4b"
+uglify-es@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.1.0.tgz#b4ca636bde6467e82a061ea7f2c124899d82bd2c"
   dependencies:
     commander "~2.11.0"
     source-map "~0.5.1"
@@ -1737,8 +1737,8 @@ uglify-js@^2.6:
     uglify-to-browserify "~1.0.0"
 
 uglify-js@^3.0.9:
-  version "3.0.28"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.0.28.tgz#96b8495f0272944787b5843a1679aa326640d5f7"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.1.0.tgz#92fae17b88dfbc3c394175a935044cdbcf4085ae"
   dependencies:
     commander "~2.11.0"
     source-map "~0.5.1"

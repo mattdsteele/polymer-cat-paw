@@ -5,48 +5,24 @@ img {
     position: fixed;
     bottom: 0;
     right: 0;
-    -webkit-animation: creepy 3s infinite alternate ease-in-out;
     animation: creepy 3s infinite alternate ease-in-out;
 }
 :host {
     display: block;
 }
 
-@-webkit-keyframes creepy {
-    from { 
-    -webkit-transform: translateX(20px) translateY(20px); 
-    transform: translateX(20px) translateY(20px); 
-    }
-    25% { 
-    -webkit-transform: translateX(20px) translateY(0); 
-    transform: translateX(20px) translateY(0); 
-    }
-    50% { 
-    -webkit-transform: translateX(10px) translateY(10px); 
-    transform: translateX(10px) translateY(10px); 
-    }
-    to {
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(0) translateY(0); 
-    }
-}
-
 @keyframes creepy {
-    from { 
-    -webkit-transform: translateX(20px) translateY(20px); 
-    transform: translateX(20px) translateY(20px); 
+    0% { 
+      transform: translateX(20px) translateY(20px); 
     }
     25% { 
-    -webkit-transform: translateX(20px) translateY(0); 
-    transform: translateX(20px) translateY(0); 
+      transform: translateX(20px) translateY(0); 
     }
     50% { 
-    -webkit-transform: translateX(10px) translateY(10px); 
-    transform: translateX(10px) translateY(10px); 
+      transform: translateX(10px) translateY(10px); 
     }
-    to {
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(0) translateY(0); 
+    100% {
+      transform: translateX(0) translateY(0); 
     }
 }
 </style>
